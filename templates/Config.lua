@@ -2,7 +2,7 @@ return {
     --// Hooking
     ForceUseCustomComm = false,
     ReplaceMetaCallFunc = false,
-    NoReceiveHooking = false,
+    NoReceiveHooking = true,
     NoFunctionPatching = false,
     BlackListedServices = {
         "RobloxReplicatedStorage"
